@@ -1,0 +1,11 @@
+name: CraftLib
+version: '${version}'
+
+main: fr.etercraft.craftLib.Main
+api-version: '26.3'
+load: POSTWORLD
+
+libraries:
+  - com.zaxxer:HikariCP:7.0.2
+  - redis.clients:jedis:6.2.0
+  - org.mariadb.jdbc:mariadb-java-client:3.5.6
